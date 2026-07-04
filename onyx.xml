@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          <!-- Remote -->
+         <remote name="REXON" fetch="https://github.com/SM8735-Personal" />
+         
+         <!-- Device Trees -->
+         <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+         <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+
+         <!-- Vendor Trees -->
+         <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+         
+         <!-- Miui Camera -->
+         <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+
+         <!-- Hardware -->
+         <project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+
+         <!-- Extra Apps / Packages -->
+         <project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+         <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+
+</manifest>
