@@ -1,3 +1,3 @@
 ```bash
-git clone https://github.com/Kolass2004/local_manifest_onyx.git .repo/local_manifests
+git clone git@github.com:SM8735-Personal/local_manifest.git .repo/local_manifests
 ```
