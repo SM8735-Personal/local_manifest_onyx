@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-         
-         <!-- Remote -->
+            <!-- Remotes -->
          <remote name="REXON" fetch="ssh://git@github.com/SM8735-Personal" />
+         <remote name="REX-GITLAB" fetch="https://gitlab.com/Kolass2004" />
          
-         <!-- Device Tree -->
+          <!-- Device resources -->
          <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="REXON" revision="Lunaris-16-QPR2" clone-depth="1" />
-
-         <!-- Vendor Tree -->
-         <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="REXON" revision="lineage-23.2" clone-depth="1" />
-         
-         <!-- Kernel Tree -->
+         <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="REX-GITLAB" revision="lineage-23.2" clone-depth="1" />       
          <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="REXON" revision="lineage-23.2" clone-depth="1" />
-
-         <!-- Hardware -->
          <project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="REXON" revision="lineage-23.2" clone-depth="1" />
-
-         <!-- GameBar and Dolby -->
+         
+          <!-- Extras -->
          <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="REXON" revision="master" clone-depth="1" />
          <project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="REXON" revision="16.0" clone-depth="1" />
-            
-         <!-- Miui Camera (Device and Vendor) -->
+
+          <!-- xioami cam  -->
          <project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="REXON" revision="lineage-23.2" clone-depth="1" />
-         <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="REXON" revision="sixteen-qpr2" clone-depth="1" />
+         <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="REX-GITLAB" revision="sixteen-qpr2" clone-depth="1" />
 
 </manifest>
