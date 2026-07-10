@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
             <!-- Remotes -->
-         <remote name="REXON" fetch="ssh://git@github.com/SM8735-Personal" />
+         <remote name="REXON" fetch="https://github.com/SM8735-Personal" />
          <remote name="REX-GITLAB" fetch="https://gitlab.com/Kolass2004" />
          
           <!-- Device resources -->
