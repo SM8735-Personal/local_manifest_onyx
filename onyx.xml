@@ -18,4 +18,8 @@
          <project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="REXON" revision="lineage-23.2" clone-depth="1" />
          <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="REX-GITLAB" revision="sixteen-qpr2" clone-depth="1" />
 
+         <!-- Custom Updater -->
+         <remove-project name="Lunaris-AOSP/packages_apps_Updater" />
+         <project name="packages_apps_Updater" path="packages/apps/Updater" remote="REXON" revision="16.2" />
+
 </manifest>
